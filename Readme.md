@@ -6,11 +6,15 @@ This package implements the folded concave Laplacian spectral (FCLS) penalized m
 # Installation
 
 `fclsp` can be installed via github
+
 ```
-git clone https://github.com/idc9/ya_glm.git
-python setup.py install
+# first install version 0.0.0 of ya_glm
+pip install git+https://github.com/idc9/ya_glm.git@v0.0.0
+
+pip install git+https://github.com/idc9/fclsp
+
 ```
-To use `fclsp` you must first install [ya_glm](https://github.com/idc9/ya_glm).
+`fclsp` currently only works with an early version of `ya_glm`; `fclsp` will soon be updated to work with more current versions.
 
 
 # Help and Support
